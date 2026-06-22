@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyTroupee</title>
+    <link rel="stylesheet" href="../style/Profile.css">
+    <script defer src="../js/Profile.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../img/KeyTroupee logo.jpg" alt="Image not available">
+        </div>
+        <ul>
+            <li class="item"><a href="../tempelate/Home.html">Home</a></li>
+            <li class="item"><a href="../tempelate/Login.html">Login</a></li>
+            <li class="item"><a href="../tempelate/typing.html">Typing</a></li>
+            <li class="item"><a href="../tempelate/piano.html">Piano Play</a></li>
+            <li class="item"><a href="../tempelate/Profile.html">Profile</a></li>
+            <li class="item"><a href="../tempelate/Register.html">Register</a></li>
+            <li class="item"><a href="../tempelate/Login.html" id="profileLogoutLink">Logout</a></li>
+        </ul>
+    </nav>
+    <div class="profile_pic">
+        <section id="Profile">
+            <div id="profile-card">
+                <h1>Welcome, <span id="username">User</span></h1>
+                <div id="performance-stats">
+                    <div class="performance-box">
+                        <h2>Piano Performance</h2>
+                        <ul>
+                            <li><strong>Least Score:</strong> <span id="piano-least">50</span></li>
+                            <li><strong>Average Score:</strong> <span id="piano-average">75</span></li>
+                            <li><strong>Max Score:</strong> <span id="piano-max">100</span></li>
+                        </ul>
+                    </div>
+                    <div class="performance-box">
+                        <h2>Typing Performance</h2>
+                        <ul>
+                            <li><strong>Least Score:</strong> <span id="typing-least">40</span></li>
+                            <li><strong>Average Score:</strong> <span id="typing-average">65</span></li>
+                            <li><strong>Max Score:</strong> <span id="typing-max">90</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
