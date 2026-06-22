@@ -1,0 +1,10 @@
+
+> keytroupee-app@1.0.0 start
+> node scripts/start.js
+
+[KeyTroupee] Starting local MongoDB...
+[KeyTroupee] MongoDB started.
+◇ injected env (2) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+[KeyTroupee] App running. Open this in your browser:
+[KeyTroupee]    http://localhost:3000
+[KeyTroupee] Connected to MongoDB.

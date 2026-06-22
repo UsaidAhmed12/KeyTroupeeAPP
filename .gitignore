@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+.claude/
+local-mongodb/
+mongo-data/
+mongo-logs/
+mongodb-windows-*.msi
+mongodb-windows-*.msi.bad

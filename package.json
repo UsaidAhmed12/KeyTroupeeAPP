@@ -1,0 +1,22 @@
+{
+    "name":  "keytroupee-app",
+    "version":  "1.0.0",
+    "main":  "server.js",
+    "scripts":  {
+                    "start":  "node scripts/start.js",
+                    "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "description":  "",
+    "dependencies":  {
+                         "bcrypt":  "^6.0.0",
+                         "cors":  "^2.8.5",
+                         "dotenv":  "^17.4.2",
+                         "express":  "^5.1.0",
+                         "mongoose":  "^8.14.3"
+                     }
+}
