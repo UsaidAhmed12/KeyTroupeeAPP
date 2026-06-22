@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --check \"c:\\\\Users\\\\ibaig\\\\Desktop\\\\KeyTroupee_electron\\\\js\\\\typing.js\")",
+      "Bash(npm install *)"
+    ]
+  }
+}
